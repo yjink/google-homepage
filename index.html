@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>Fake Google Page</title>
+        <style>
+            body {
+                font-family: arial sans-serif;
+            }
+
+            .header {
+                display: grid;
+                grid-template-columns: 4em auto 4em 4em 3em 3em;
+                font-family: arial sans-serif;
+            }
+
+            .footer {
+                font-family: arial sans-serif;
+                background-color: #f2f2f2;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                display: grid;
+                grid-template-columns: 7em 5em auto 5em 5em 5em;
+                width: 100%
+            }
+
+            img {
+                display: block;
+                margin-top: 10%;
+                margin-bottom: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                width: 25%;
+            }
+
+            a {
+                color: #404040;
+                text-decoration: none;
+                font-family: arial sans-serif;
+                font-size: 15px;
+            }
+
+            a: hover {
+                text-decoration: underline;
+            }
+
+            .search-engine {
+                text-align: center;
+            }
+
+            input {
+                border-radius: 25px;
+                border: 1px solid grey;
+                padding: 7px;
+            }
+
+            button {
+                color: #4d4d4d;
+                background-color: #f2f2f2;
+                border-radius: 5px;
+                border: 1px solid #f2f2f2;
+                padding: 7px;
+            }
+
+            #app-button {
+                background-color: lightgrye;
+                border-radius: 7px;
+                height: 20px;
+                width: 20px;
+            }
+
+            #acct-button {
+                background-color: blue;
+                height: 25px;
+                width: 25px;
+                border: 1px solid #f2f2f2;
+                border-radius: 50%;
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+                margin: auto;
+                color: white;
+            }
+
+            #ad {
+                padding-left: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div id="about"><a href="">About</a></div>
+            <div id="store"><a href="">Store</a></div>
+            <div id="gmail"><a href="">Gmail</a></div>
+            <div id="images"><a href="">Images</a></div>
+            <div id="app"><button id="app-button"></button></div>
+            <div id="account"><button id="acct-button" href="">A</button></div>
+          </div>
+          <div class="google-logo">
+            <img alt="google banner" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+          </div>
+          <div class="search-engine">
+            <input size="70"></input>
+            <br></br>
+            
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+            
+          </div>
+    
+          <div class="footer">
+            <div><a id="ad" href="">Advertising</a></div>
+            <div><a id="bus" href="">Business</a></div>
+            <div><a id="how" href="">How Search Works</a></div>
+            <div><a id="privacy" href="">Privacy</a></div>
+            <div><a id="terms" href="">Terms</a></div>
+            <div><a id="settings" href="">Settings</a></div>
+          </div>
+    </body>
+</html>
